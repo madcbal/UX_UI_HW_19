@@ -71,11 +71,10 @@ footer li {
 .workGrid {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 350px 350px 350px;
+  grid-template-rows: 350px 350px;
   grid-template-areas:
   "img1 content1"
   "img2 content2"
-  "img3 content3"
   ;
 }
 .workGrid img {
@@ -90,10 +89,7 @@ footer li {
 .img2 {
   grid-area: img2;
 }
-.img3 {
-  grid-area: img3;
-}
-.img1, .img2, .img3, .content1, .content2, .content3 {
+.img1, .img2, .content1, .content2 {
   padding: 80px;
 }
 .content1 {
@@ -101,7 +97,4 @@ footer li {
 }
 .content2 {
   grid-area: content2;
-}
-.content3 {
-  grid-area: content3;
 }

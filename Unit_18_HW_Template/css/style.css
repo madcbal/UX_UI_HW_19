@@ -16,6 +16,10 @@ header li {
 header p {
   display: inline-block;
 }
+.work{
+  color: inherit;
+  text-decoration: none;
+}
 .heroImg {
   background-color: #EBEBEB;
   padding: 100px 15px;

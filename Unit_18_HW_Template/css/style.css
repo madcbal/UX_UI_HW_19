@@ -119,3 +119,6 @@ footer li {
 .content2 {
   grid-area: content2;
 }
+.lightsaber {
+  align-self: center;
+}
